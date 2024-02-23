@@ -1,0 +1,13 @@
+REPOSITORIO CRIADO PARA ADICIONAR A QUESTÃO 5
+
+O REPOSITORIO CONTEM 2 ARQUIVOS:
+rafael_table.sql
+e
+rafael_query.sql
+
+O arquivo rafael_table.sql deve ser rodado primeiro para criar e povoar as tabelas
+
+Já o arquivo rafael_query.sql deve ser rodado depois e vai realizar as querys
+
+
+
