@@ -1,29 +1,21 @@
-ESSE REPOSITÓRIO FOI CRIADO PARA ENTREGAR A QUESTÃO 4:
+# INSTRUÇÕES
 
-"Implemente um script Python que extrai os resultados para uma determinada busca no endpoint da API pública do Mercado Livre. 
-Com base nos resultados da busca, execute uma análise exploratória sobre esses dados utilizando uma ferramenta de visualização.
-
-Endpoint:
-https://api.mercadolibre.com/sites/MLB/search?q=cofre
-
-Requisitos:
-I. Caso mude a busca, exemplo de cofre para câmera de segurança, as visualizações devem se adequar aos novos resultados.
-
-II. Considerações sobre os dados? (aqui veríamos se a pessoa é capaz de ser crítica com os dados e buscar valida-los.
-
-Adicione o link do repositório com instruções de como executá-lo."
-
-
-A pastas contem uma versão do arquivo em .py (Python) e um em .ipynb(Jupyter)
-Qualquer uma das duas pode ser utilizada.
+A pastas contem uma versão do arquivo em .py (Python) e um em .ipynb(Jupyter).Qualquer uma das duas pode ser utilizada.
 Ao ser rodado o codigo vai pedir que o nome de um produto seja escrito no terminal, as analytics vão ser geradas de acordo com dados do produto digitado.
 Além disso, dois arquivos csv estão presentes aqui também:
-dados_brutos.csv
-Que contém os dados em seu estado bruto após a extração do API
-df_limpo.csv
-Que contem os dados após o tratamento
-Para a visualização do banco de dados é melhor abrir diretamente os arquivos csv
-No caso esses arquivos gerados são para o termo pesquisado "cofre"
-Toda vez que o programa for rodado e um produto diferente for pesquisado, vão ser gerados novos arquivos csv relativos aquele programa
+dados_brutos.csv e df_limpo.csv
+O primeiro contém os dados em seu estado bruto após a extração do API eo segundo contém os dados após o tratamento.
+Para a visualização do banco de dados é melhor abrir diretamente os arquivos csv.
+
+# DATASET
+
+O dataset vai variar de acordo com o produto que for pesquisado quando o programa rodar.
+De maneira geral, o dataframe vai possuir 50 linhas e mais de 50 colunas. Que precisam ser tratados, são muitas colunas vazias ou com informações pouco relevantes.
+Optei por criar um data frame novo, contendo apenas as colunas importantes para a análise.
+A eles adicinonei a coluna 'BRAND' com informações obtidas da coluna 'attributes' que contem um dicionario com varias informações sobre os produtos.
+
+
+# ANÁLISE EXPLORATIVA DOS DADOS
+
 
 
