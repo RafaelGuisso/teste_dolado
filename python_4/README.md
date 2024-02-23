@@ -59,11 +59,17 @@ De qualquer forma, os valores citados muito provavelmente não refletem os valor
 # CONCLUSÃO
 
 O preço do produto impacta fortemente no número de parcelas aceitas e na probabilidade de o frete ser grátis.
+
 Com isso é possível dizer que em geral um produto barato vai ser parcelado em poucas parcelas e vai ter frete pago.
+
 Enquanto que um produto mais caro vai ter mais parcelas e frete grátis, podemos deduzir que o preço do frete já esta imbutido no preço do produto.
+
 Os valores de estoque geralmente é 1 ou valores redondos como 100, 500, 1000.
+
 Provavelmente indicando que o vendedor coloca um valor inicial de estoque quando anuncia um produto e esse valor não é decrescido quando ocorrem vendas.
+
 Acredito que para evitar que o anúncio da venda caia automáticamente quando o estoque inicial chegue a zero.
+
 Mas, colocar o estoque como 1 pode ser uma tática para gerar um gatilho de escassez falsa e gerar compras por impulso.
 
 
