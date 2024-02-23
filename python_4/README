@@ -1,0 +1,25 @@
+ESSE REPOSITÓRIO FOI CRIADO PARA ENTREGAR A QUESTÃO 4:
+
+"Implemente um script Python que extrai os resultados para uma determinada busca no endpoint da API pública do Mercado Livre. Com base nos resultados da busca, execute uma análise exploratória sobre esses dados utilizando uma ferramenta de visualização.
+
+Endpoint:
+https://api.mercadolibre.com/sites/MLB/search?q=cofre
+
+Requisitos:
+I. Caso mude a busca, exemplo de cofre para câmera de segurança, as visualizações devem se adequar aos novos resultados.
+
+II. Considerações sobre os dados? (aqui veríamos se a pessoa é capaz de ser crítica com os dados e buscar valida-los.
+
+Adicione o link do repositório com instruções de como executá-lo."
+
+A pastas contem uma versão do arquivo em .py (Python) e um em .ipynb(Jupyter)
+Qualquer uma das duas pode ser utilizada.
+Além disso, dois arquivos csv estão presentes aqui também:
+dados_brutos.csv
+Que contém os dados em seu estado bruto após a extração do API
+df_limpo.csv
+Que contem os dados após o tratamento
+Esses dois arquivos estão aqui apenas como uma demonstração
+uma vez que cada vez que o programa for rodado e um produto diferente for pesquisado, vão ser gerados novos arquivos csv
+
+
