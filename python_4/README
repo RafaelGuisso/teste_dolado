@@ -14,6 +14,7 @@ Adicione o link do repositório com instruções de como executá-lo."
 
 A pastas contem uma versão do arquivo em .py (Python) e um em .ipynb(Jupyter)
 Qualquer uma das duas pode ser utilizada.
+Ao ser rodado o codigo vai pedir que o nome de um produto seja escrito no terminal, as analytics vão ser geradas de acordo com dados do produto digitado.
 Além disso, dois arquivos csv estão presentes aqui também:
 dados_brutos.csv
 Que contém os dados em seu estado bruto após a extração do API
