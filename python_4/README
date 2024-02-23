@@ -17,7 +17,41 @@ A eles adicinonei a coluna 'BRAND' com informações obtidas da coluna 'attribut
 
 # ANÁLISE EXPLORATIVA DOS DADOS
 
+As análises a seguir foram feitas com o dataframe obtido com o termo de pesquisa "celular"
+De mãos nos dados tratados foi possível fazer algumas análises:
+
+Primeiro observar a contagem de produtos por marca
+
 ![grafico1](https://github.com/RafaelGuisso/teste_dolado/assets/108840079/3615942a-6660-437e-a41d-568d4db1a716)
+
+Em seguida uma análise dos preços médios dos produtos para cada marca:
+
+
+Em seguida foi feita análise de quantos produtos tem frete grátis e frete pago:
+
+Para auxiliar nessa análise foi feito também o gráfico 4 que contém o preço médio dos produtos com frete grátis e frete pago
+
+
+Foi possível perceber que quando comparados os preços médios dos produtros com frete pago e grátis, geralmente os produtos com frete grátis são mais caros
+De fato, para produtos de ticket médio maior (celular, video game, drone...), o frete costuma ser grátis.
+
+Em seguida foi feito o gráfico 5, que contém um um boxplot comparando o número de parcelas com o preço dos produtos.
+
+Por ultimo o Gráfico 6 contém a contagem de estoque dos produtos.
+
+Por algum motivo o valor que parece repetir mais vezes é 1, e os demais valores encontrados geralmente são valores redondos como 100, 500 ou 1000.
+Provavelmente indicando que o vendedor coloca um valor inicial de estoque quando anuncia um produto e esse valor não é decrescido quando ocorrem vendas.
+De qualquer forma, os valores citados muito provavelmente não refletem os valores reais de estoque.
+
+# CONCLUSÃO
+
+O preço do produto impacta fortemente no número de parcelas aceitas e na probabilidade de o frete ser grátis.
+Com isso é possível dizer que em geral um produto barato vai ser parcelado em poucas parcelas e vai ter frete pago.
+Enquanto que um produto mais caro vai ter mais parcelas e frete grátis, podemos deduzir que o preço do frete já esta imbutido no preço do produto.
+Os valores de estoque geralmente é 1 ou valores redondos como 100, 500, 1000.
+Provavelmente indicando que o vendedor coloca um valor inicial de estoque quando anuncia um produto e esse valor não é decrescido quando ocorrem vendas.
+Acredito que para evitar que o anúncio da venda caia automáticamente quando o estoque inicial chegue a zero.
+Mas, colocar o estoque como 1 pode ser uma tática para gerar um gatilho de escassez falsa e gerar compras por impulso.
 
 
 
